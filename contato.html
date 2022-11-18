@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Contato - Barbearia Alura</title>
-        <link rel="stylesheet" href="produtos.css">
+        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="reset.css">
     </head>
     <body>
@@ -21,7 +21,28 @@
         </header>
 
           <main>
+            <form>
+               <label form="nomesobrenome"> Nome e Sobrenome </label>
+               <input type="text"  id="nomesobrenome">
 
+                <label for="Email">Email</label>
+                <input type="text" id="Email">
+
+                <label for="Telefone">Telefone</label>
+                <input type="text" id="Telefone">
+
+                <label for="mensagem">Mensage,</label>
+                <textarea cols="30" rows="10" id="mensagem"></textarea>
+
+                <label for="radio-email">Email</label>
+                <input type="radio" value="Email" id="radio-email">
+
+                <label for="radio-telefone"> Telefone</label>
+                <input type="radio" value="telefone" id="radio-telefone">
+
+                <input type="submit" value="Enviar Formulário">
+
+            </form>
           </main>
 
         <footer>
