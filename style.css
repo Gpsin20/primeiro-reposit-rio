@@ -110,3 +110,9 @@ td ,th {
   border: 1px solid #000000;
   padding: 8px 15px;
 }
+
+footer { 
+  text-align: center;
+  background-image: url(bg.jpg);
+  padding:40px 0 ;
+}
